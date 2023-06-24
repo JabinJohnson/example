@@ -8,10 +8,43 @@ for(let i=0; i<number; i++){
   let random = Math.floor(Math.random() * 3 );
   let computer = 0;
   console.log(random);
-  if ()
   // Translate this random variable to computer choice.
+  if (userChoice="Rock",computer="Paper"){
+    alert("You Lose!");
+    count+=
+    console.log(lose);
+  }
+  if (userChoice="Paper",computer="Scissors"){
+    alert("You Lose!");
+    count+=
+    console.log(lose);
+  }
+  if (userChoice="Scissors",computer="Rock"){
+    alert("You Lose!");
+    count+=
+    console.log(lose);
+  }
+  if(userChoice="Rock",computer="Scissors"){
+    alert("You Win!");
+    count+=
+    console.log(win);
+  }
+  if(userChoice="Scissors",computer="Paper"){
+    alert("You Win!");
+    count+=
+    console.log(win);
+  }
+  if(userChoice="Paper",computer="Rock"){
+    alert("You Win!");
+    count+=
+    console.log(win);
+  } 
+  if (userChoice == computer){
+    alert("Tie!");
+    count+=
+    console.log(tie);
+  }
 }
-
 // while (number <= pick){
 //     count++;
 //  if (userChoice == getRndInteger) {
