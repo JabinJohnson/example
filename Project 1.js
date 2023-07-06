@@ -9,32 +9,32 @@ for(let i=0; i<number; i++){
   let computer = 0;
   console.log(random);
   // Translate this random variable to computer choice.
-  if (userChoice="Rock",computer="Paper"){
+  if (userChoice=="Rock",computer=="Paper"){
     alert("You Lose!");
     count+=
     console.log(lose);
   }
-  if (userChoice="Paper",computer="Scissors"){
+  if (userChoice=="Paper" && computer=="Scissors"){
     alert("You Lose!");
     count+=
     console.log(lose);
   }
-  if (userChoice="Scissors",computer="Rock"){
+  if (userChoice=="Scissors" && computer=="Rock"){
     alert("You Lose!");
     count+=
     console.log(lose);
   }
-  if(userChoice="Rock",computer="Scissors"){
+  if(userChoice=="Rock" && computer=="Scissors"){
     alert("You Win!");
     count+=
     console.log(win);
   }
-  if(userChoice="Scissors",computer="Paper"){
+  if(userChoice=="Scissors" && computer=="Paper"){
     alert("You Win!");
     count+=
     console.log(win);
   }
-  if(userChoice="Paper",computer="Rock"){
+  if(userChoice=="Paper" && computer=="Rock"){
     alert("You Win!");
     count+=
     console.log(win);
