@@ -9,7 +9,7 @@ for(let i=0; i<number; i++){
   let computer = 0;
   console.log(random);
   // Translate this random variable to computer choice.
-  if (userChoice=="Rock",computer=="Paper"){
+  if (userChoice=="Rock" && computer=="Paper"){
     alert("You Lose!");
     count+=
     console.log(lose);
